@@ -14,18 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "SUPER Android Analyzer"
-email: razican@protonmail.ch
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+email: contact@superanalyzer.rocks
+description: > SUPER Android analyzer offers a great multiplatfom app that will
+  analyze the given .apk files and will show results in a pretty HTML summary.
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://superanalyzer.rocks" # the base hostname & protocol for your site
 repository: SUPERAndroidAnalyzer/superanalyzer.rocks
-twitter_username: Razican
+# twitter_username: ""
 github_username:  SUPERAndroidAnalyzer
 
 # Build settings
 markdown: kramdown
-theme: carte-noire
+theme: minima
 highlighter: rouge
