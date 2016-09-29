@@ -195,7 +195,7 @@ one of the priorities for the next version
 ([#22](https://github.com/SUPERAndroidAnalyzer/super/issues/22)), since they use external Java
 dependencies.
 
-### Things to do
+## Things to do
 
 TODO, TODO.
 
