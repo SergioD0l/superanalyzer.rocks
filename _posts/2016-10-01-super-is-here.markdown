@@ -14,7 +14,7 @@ We currently detect SQL Injections, XSS vulnerabilities, *superuser* checks, and
 vulnerabilities detected by a total of 37 rules, that will be expanded and optimized in future
 updates.
 
-But, why create a new analyzer? Is it not enough with *MobSF*, *QARC*, *Androbugs*…? Well, we think
+But, why create a new analyzer? Is it not enough with *MobSF*, *Qark*, *Androbugs*…? Well, we think
 it's not enough. All of them have two main issues we wanted to fix: They are written in Java or
 Python and they are not easily extensible. They are not meant to be used by businesses directly
 working in Android analysis, and don't put that kind of functionality first.
@@ -195,9 +195,24 @@ one of the priorities for the next version
 ([#22](https://github.com/SUPERAndroidAnalyzer/super/issues/22)), since they use external Java
 dependencies.
 
-## Things to do
+## Development
 
-TODO, TODO.
+SUPER has been developed in [GitHub](https://github.com/SUPERAndroidAnalyzer/super) as an open
+source software. It's licenses under GPLv3 (or, at your option, any later version). We use
+[Git-flow](http://nvie.com/posts/a-successful-git-branching-model/) as our development model and we
+have created some
+[guidelines](https://github.com/SUPERAndroidAnalyzer/super/blob/master/contributing.md) to
+contribute. It has been developed by the [SUPER team]({{ site.url }}/about/#team).
+
+### Things to do
+
+There are still lots of things to do (that's why this version is 0.1.0 and not 1.0.0). You can find
+them in the [issue tracker](https://github.com/SUPERAndroidAnalyzer/super/issues). We have created
+some [labels](https://github.com/SUPERAndroidAnalyzer/super/labels) to make it easier track issues
+and to select those to fix or implement. So, for example, we have a list of
+[easy issues](https://github.com/SUPERAndroidAnalyzer/super/labels/D-Easy), a list of
+[bugs](https://github.com/SUPERAndroidAnalyzer/super/labels/Bug), etc. We even have some issues
+[for newcomers](https://github.com/SUPERAndroidAnalyzer/super/projects/5)!
 
 ## Our results
 
