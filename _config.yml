@@ -27,5 +27,5 @@ github_username:  SUPERAndroidAnalyzer
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: carte-noire
 highlighter: rouge
