@@ -195,38 +195,34 @@ one of the priorities for the next version
 ([#22](https://github.com/SUPERAndroidAnalyzer/super/issues/22)), since they use external Java
 dependencies.
 
-## Our results
-
-Results, TODO.
-
-## Development
-
-Development TODO.
-
 ### Things to do
 
 TODO, TODO.
 
-## Team
+## Our results
 
-Team, TODO.
+For this first version we analyzed a total of 76 applications in the Google Play Store, in
+different categories. The complete list is shown here. An online report repository is going to be
+created in the future to show all the generated reports for many applications and versions, but for
+now, a post will be shown in the next days with information about the vulnerabilities that were
+found.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+The applications analyzed have been these:
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+ - 16 of the 20 most downloaded apps in Spain:
+   - WhatsApp (com.whatsapp)
+   - Facebook Messenger (com.facebook.orca)
+   - Wallapop (com.wallapop)
+   - Bottle Flip (com.metroxylon.Bottle.Flip)
+   - Facebook (com.facebook.katana)
+   - Instagram (com.instagram.android)
+   - Clash Royale (com.supercell.clashroyale)
+   - FIFA 17 Companion (com.ea.gp.fifaultimate)
+   - Spotify (com.spotify.music)
+   - Pokémon GO (com.nianticlabs.pokemongo)
+   - Snapchat (com.snapchat.android)
+   - musical.ly (com.zhiliaoapp.musically)
+   - S Photo Editor (com.steam.photoeditor)
+   - Rolling Sky (com.turbochilli.rollingsky)
+   - DIA (es.dia)
+   - Flip Diving (com.motionvolt.flipdiving)
