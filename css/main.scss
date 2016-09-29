@@ -37,3 +37,7 @@ $on-laptop:        900px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+
+.post-content p {
+    text-align: justify;
+}
