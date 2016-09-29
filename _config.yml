@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: "SUPER Android Analyzer"
 email: contact@superanalyzer.rocks
-description: > SUPER Android analyzer offers a great multiplatfom app that will
+description: > #
+  SUPER Android analyzer offers a great multiplatfom app that will
   analyze the given .apk files and will show results in a pretty HTML summary.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://superanalyzer.rocks" # the base hostname & protocol for your site
