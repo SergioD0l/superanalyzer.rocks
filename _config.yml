@@ -18,8 +18,8 @@ email: contact@superanalyzer.rocks
 description: > #
   SUPER Android analyzer offers a great multiplatfom app that will
   analyze the given .apk files and will show results in a pretty HTML summary.
-baseurl: "http://superanalyzer.rocks/" # the subpath of your site, e.g. /blog
-url: "http://superanalyzer.rocks" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://superanalyzer.rocks/" # the base hostname & protocol for your site
 repository: SUPERAndroidAnalyzer/superanalyzer.rocks
 # twitter_username: ""
 github_username:  SUPERAndroidAnalyzer
