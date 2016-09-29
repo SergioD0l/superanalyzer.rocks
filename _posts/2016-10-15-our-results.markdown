@@ -26,3 +26,7 @@ WhatsApp is the most used Android application, but it shows some potential vulne
 
 Those are the most important ones. More can be seen if you generate a report yourself, or in the
 future, in the online report repository, as said above.
+
+## Facebook (com.facebook.katana)
+
+TODO
