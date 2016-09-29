@@ -96,7 +96,104 @@ in the following steps.
 
 ## Use
 
-Use, TODO.
+To use SUPER you will need to configure in the `config.toml` file the paths of `vendor`,
+`downloads` and other folders. If the package was installed using one of the provided packages,
+the default configuration will work. If not, probably the same folder where `super` is called from
+will work (usually the installation folder, or the current workspace). If willing to use other
+paths, a sample configuration file can be found in the `config.toml.sample` file.
+
+Lots of parameters can be configured in that file, such as the threads that will be used for the
+analysis or the rule file. We currently require some Java dependencies that are included in the
+packages. This should change once [#22](https://github.com/SUPERAndroidAnalyzer/super/issues/22) is
+implemented.
+
+Once configured, the use is simple: Move the *.apk* file that you want to test to the `downloads`
+folder. The name of the *.apk* file should be `{package_name}.apk`. For example:
+`com.instagram.android.apk`. After that, running SUPER is as easy as running this:
+
+```
+super {package_name}
+```
+
+If SUPER is installed in the current directory, in Unix, you will need to run `./super` instead.
+The package name will be the *.apk* file name without the extension. So in the example above, the
+command would be this:
+
+```
+super com.instagram.android
+```
+
+This will decompress all the files in the `dist/{package_name}` folder, analyze them with the rules
+in the `rules.json` file (and configuration in the `config.toml` file) and generate the results in
+the `results/{package_name}` folder.
+
+In the results page, an `index.html` file will contain the report, while a `report.json` file will
+have a machine readable format of that report. In the case of using the *verbose* mode (see below),
+the report will also be shown in the terminal.
+
+### Command line interface
+
+If you run `super --help`, you will see the following:
+
+```
+SUPER Android Analyzer 0.1.0
+SUPER Android Analyzer Team <contact@superanalyzer.rocks>
+Audits Android apps for vulnerabilities
+
+USAGE:
+    super [FLAGS] <package>
+
+FLAGS:
+        --bench      Show benchmarks for the analysis.
+        --force      If you'd like to force the auditor to do everything from the beginning.
+    -h, --help       Prints help information
+    -q, --quiet      If you'd like a zen auditor that won't talk unless it's 100% necessary.
+    -V, --version    Prints version information
+    -v, --verbose    If you'd like the auditor to talk more than necessary.
+
+ARGS:
+    <package>    The package string of the application to test.
+```
+
+The usage is really straightforward. The `-v` or `--verbose` option will show loads of information
+in the terminal itself, and the analysis will be performed much slower. The intention in verbose
+mode is partially to show how the vulnerabilities are cached and how the analysis is performed.
+
+In normal mode, small messages will be printed indicating the analysis stage. The analysis is
+usually really fast (takes a really big app less than one minute in a Carbon X1), but it will in
+any case show some prints. This can be avoided by using the `-q` or the `--quiet` option. This will
+avoid **all** output from *stdout* even though there might be some output in *stderr* if something
+doesn't go as expected.
+
+The `--force` option will regenerate the distribution files and results even if that application
+has already been analyzed. By default, if the application distribution files exist in
+`dist/{package_name}` they won't be generated, and if the results are already in
+`results/{package_name}` they won't be generated either. Those are independent, so if the
+distribution files are generated but the report has been deleted, only the report will be generated.
+
+The `--bench` flag will generate benchmarks for the current analysis. This is useful to see the
+real performance of the analysis. An example benchmark can be this:
+
+```
+Benchmarks:
+ApkTool decompression: 7.278750647s
+Dex extraction: 0.98327826s
+Dex to Jar decompilation: 11.473415714s
+Decompilation: 11.695567790s
+Manifest analysis: 0.5059071s
+Certificate analysis: 0.5984248s
+Rule loading: 0.15836818s
+File analysis: 1.312931838s
+Total code analysis: 1.349633866s
+Total static analysis: 1.362122448s
+Report generation: 1.154849626s
+Total time: 33.824436350s
+```
+
+As you can see, most of the time is expent in the extraction and decompilation phases, which are
+one of the priorities for the next version
+([#22](https://github.com/SUPERAndroidAnalyzer/super/issues/22)), since they use external Java
+dependencies.
 
 ## Our results
 
