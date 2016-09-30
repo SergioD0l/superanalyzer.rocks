@@ -19,7 +19,7 @@ have the links:
 
 Windows downloads have been tested in Windows 10, but they might work in other versions as well.
 
-<div class="download" style="margin:auto"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-windows.exe" title="Download SUPER for Windows"><img src="{{ site.url }}/assets/os_logos/windows.svg" alt="Windows logo"><br>Windows 10 (64-bit)</a></div>
+<div class="download" style="margin-left:15em;width:10em;height:5em"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-windows.exe" title="Download SUPER for Windows"><img src="{{ site.url }}/assets/os_logos/windows.svg" alt="Windows logo"><br>Windows 10 (64-bit)</a></div>
 
 <div style="clear:both;"></div>
 
