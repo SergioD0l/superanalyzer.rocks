@@ -15,9 +15,7 @@ Here you can find all the information relevant to the SUPER Android Analyzer. Yo
 an about page, and of course, the downloads. If you only want to download the package, here you
 have the links:
 
-## Download
-
-### Windows
+## Download for Windows
 
 Windows downloads have been tested in Windows 10, but they might work in other versions as well.
 
@@ -25,7 +23,7 @@ Windows downloads have been tested in Windows 10, but they might work in other v
 
 <div style="clear:both;"></div>
 
-### Linux
+## Download for Linux
 
 Linux downloads have been tested in the given OS versions, but they might work in other versions as
 well, or even in other distributions.
