@@ -21,22 +21,26 @@ have the links:
 
 Windows downloads have been tested in Windows 10, but they might work in other versions as well.
 
-<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-windows.exe" title="Download SUPER for Windows"><img src="{{ site.url }}/assets/os_logos/windows.png" alt="Windows logo"><br>Windows 10 (64-bit)</a></div>
+<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-windows.exe" title="Download SUPER for Windows"><img src="{{ site.url }}/assets/os_logos/windows.svg" alt="Windows logo"><br>Windows 10 (64-bit)</a></div>
+
+<div style="clear:both;"></div>
 
 ### Linux
 
 Linux downloads have been tested in the given OS versions, but they might work in other versions as
 well, or even in other distributions.
 
-<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-debian.deb" title="Download SUPER for Debian"><img src="{{ site.url }}/assets/os_logos/debian.png" alt="Debian logo"><br>Debian 8.6 (64-bit)</a></div>
+<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-debian.deb" title="Download SUPER for Debian"><img src="{{ site.url }}/assets/os_logos/debian.svg" alt="Debian logo"><br>Debian 8.6 (64-bit)</a></div>
 
-<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-ubuntu.deb" title="Download SUPER for Ubuntu"><img src="{{ site.url }}/assets/os_logos/ubuntu.png" alt="Ubuntu logo"><br>Ubuntu 16.04 (64-bit)</a></div>
+<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-ubuntu.deb" title="Download SUPER for Ubuntu"><img src="{{ site.url }}/assets/os_logos/ubuntu.svg" alt="Ubuntu logo"><br>Ubuntu 16.04 (64-bit)</a></div>
 
-<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-mint.deb" title="Download SUPER for Linux Mint"><img src="{{ site.url }}/assets/os_logos/mint.png" alt="Linux Mint logo"><br>Linux Mint 18 (64-bit)</a></div>
+<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-mint.deb" title="Download SUPER for Linux Mint"><img src="{{ site.url }}/assets/os_logos/mint.svg" alt="Linux Mint logo"><br>Linux Mint 18 (64-bit)</a></div>
 
-<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-centos.rpm" title="Download SUPER for CentOS"><img src="{{ site.url }}/assets/os_logos/centos.png" alt="CentOS logo"><br>CentOS 7 (64-bit)</a></div>
+<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-centos.rpm" title="Download SUPER for CentOS"><img src="{{ site.url }}/assets/os_logos/centos.svg" alt="CentOS logo"><br>CentOS 7 (64-bit)</a></div>
 
-<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-fedora.rpm" title="Download SUPER for Fedora"><img src="{{ site.url }}/assets/os_logos/fedora.png" alt="Fedora logo"><br>Fedora 24 (64-bit)</a></div>
+<div class="download"><a href="https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-fedora.rpm" title="Download SUPER for Fedora"><img src="{{ site.url }}/assets/os_logos/fedora.svg" alt="Fedora logo"><br>Fedora 24 (64-bit)</a></div>
+
+<div style="clear:both;"></div>
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
