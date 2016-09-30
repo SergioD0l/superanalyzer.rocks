@@ -5,6 +5,8 @@ tagline: Secure, Unified, Powerful and Extensible Rust Android Analyzer
 ---
 {% include JB/setup %}
 
+<img src="{{ site.url }}/assets/logo.png" alt="SUPER logo" title="SUPER Android Analyzer" style="float:left; width: 5em;">
+
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
