@@ -55,17 +55,16 @@ package similar to your distribution (CentOS package for RedHat based distributi
 packages for Debian based distributions, etc.) or if you prefer (or don't find an appropriate
 package), you can compile it from source, as it's shown in the last section of the installation.
 
- - [Debian 8.6](https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-debian.deb) (DEB)
- - [Ubuntu 16.04](https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-ubuntu.deb) (DEB)
- - [Linux Mint 18](https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-mint.deb) (DEB)
- - [CentOS 7](https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-centos.rpm) (RPM)
- - [Fedora 24](https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-fedora.rpm) (RPM)
+ - [Debian 8.6](https://github.com/SUPERAndroidAnalyzer/super/releases/download/0.1.0/super_0.1.0_debian_amd64.deb) (DEB)
+ - [Ubuntu 16.04](https://github.com/SUPERAndroidAnalyzer/super/releases/download/0.1.0/super_0.1.0_ubuntu_amd64.deb) (DEB)
+ - [CentOS 7](https://github.com/SUPERAndroidAnalyzer/super/releases/download/0.1.0/super-0.1.0-1.el7.centos.x86_64.rpm) (RPM)
+ - [Fedora 24](https://github.com/SUPERAndroidAnalyzer/super/releases/download/0.1.0/super-0.1.0-1.fc24.x86_64.rpm) (RPM)
 
 ### Windows
 
 SUPER has been developed in UNIX, but it has been programmed so it is easily portable for other SOs. It is currently possible to run SUPER under Windows 64 bits. It is not possible to run SUPER under Windows 32 bits.
 
-We currently have an OpenSSL dependency, which isn't preinstalled in Windows, so for now it is mandatory for windows users to install OpenSSL and add the **bin** folder to the PATH. 
+We currently have an OpenSSL dependency, which isn't preinstalled in Windows, so for now it is mandatory for windows users to install OpenSSL and add the **bin** folder to the PATH.
 - You can download OpenSSL [here](http://gnuwin32.sourceforge.net/packages/openssl.htm).
 - To add it to the PATH, go to **Control panel - System - Environment variables - PATH** and add an entry to OpenSSL (it should be something like this: **C:\Program Files (x86)\GnuWin32\bin**).
 
@@ -222,7 +221,7 @@ and to select those to fix or implement. So, for example, we have a list of
 
 ## Our results
 
-For this first version we analyzed a total of 76 applications in the Google Play Store, in
+For this first version we analyzed a total of 46 applications in the Google Play Store, in
 different categories. The complete list is shown here. An online report repository is going to be
 created in the future to show all the generated reports for many applications and versions, but for
 now, a post will be shown in the next days with information about the vulnerabilities that were
@@ -247,7 +246,6 @@ The applications analyzed have been these:
    - Rolling Sky (com.turbochilli.rollingsky)
    - DIA (es.dia)
    - Flip Diving (com.motionvolt.flipdiving)
- 
  - 18 of the 20 most downloaded apps ('Beauty' category):
    - Beauty tips for skin (net.linktomedia.trucosdebelleza)
    - BirchBox (com.birchbox.birchbox)
@@ -267,7 +265,6 @@ The applications analyzed have been these:
    - Snap Doggy Face for Snapchat (com.snapdoggyface.snapphotofilterdoggyface)
    - Beauty Make Up Photo Editor (app.alert.bueatymackup)
    - Academy Beauty Club (com.ionicframework.mobile860711)
-
  - 12 of the 20 most downloaded shopping apps in Spain:
    - Bershka (com.inditex.ecommerce.bershka)
    - chicfy - compra y vende moda (com.chicfy)
