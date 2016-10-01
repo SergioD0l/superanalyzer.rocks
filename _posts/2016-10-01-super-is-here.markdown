@@ -47,10 +47,6 @@ There are multiple ways of installing SUPER in your computer. SUPER is available
 *[crates.io](https://crates.io/)*, so if you are using Rust/Cargo it's as simple as running
 `cargo install super`. If not, you can select one of the following options:
 
-### Windows
-
-TODO (Bruno)
-
 ### Linux
 
 We have made it really easy to install SUPER in Linux. We have many packages for different
@@ -64,6 +60,16 @@ package), you can compile it from source, as it's shown in the last section of t
  - [Linux Mint 18](https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-mint.deb) (DEB)
  - [CentOS 7](https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-centos.rpm) (RPM)
  - [Fedora 24](https://github.com/SUPERAndroidAnalyzer/super/archive/super-0.1.0-fedora.rpm) (RPM)
+
+### Windows
+
+SUPER has been developed in UNIX, but it has been programmed so it is easily portable for other SOs. It is currently possible to run SUPER under Windows 64 bits. It is not possible to run SUPER under Windows 32 bits.
+
+We currently have an OpenSSL dependency, which isn't preinstalled in Windows, so for now it is mandatory for windows users to install OpenSSL and add the **bin** folder to the PATH. 
+- You can download OpenSSL [here](http://gnuwin32.sourceforge.net/packages/openssl.htm).
+- To add it to the PATH, go to **Control panel - System - Environment variables - PATH** and add an entry to OpenSSL (it should be something like this: **C:\Program Files (x86)\GnuWin32\bin**).
+
+It is very easy to run SUPER in Windows. We provide an executable which extracts SUPER to the especified folder so users don't need to configure anything additional. To run SUPER, once extracted the folder switch to switch to it with a command console and simply run the program. For usage options, go to the section Command Line Interface.
 
 ### MacOS X
 
@@ -94,7 +100,7 @@ cargo build --release
 This will create `target/release/super`, which will be the executable that you will be able to use
 in the following steps.
 
-## Use
+## Usage
 
 To use SUPER you will need to configure in the `config.toml` file the paths of `vendor`,
 `downloads` and other folders. If the package was installed using one of the provided packages,
@@ -242,7 +248,7 @@ The applications analyzed have been these:
    - DIA (es.dia)
    - Flip Diving (com.motionvolt.flipdiving)
  
- - 18 of the 20 most downloaded apps ('Beauty' category)  :
+ - 18 of the 20 most downloaded apps ('Beauty' category):
    - Beauty tips for skin (net.linktomedia.trucosdebelleza)
    - BirchBox (com.birchbox.birchbox)
    - Contourning Step (com.mobincube.contouring_paso_a_paso.sc_3PCIFL)
@@ -261,3 +267,17 @@ The applications analyzed have been these:
    - Snap Doggy Face for Snapchat (com.snapdoggyface.snapphotofilterdoggyface)
    - Beauty Make Up Photo Editor (app.alert.bueatymackup)
    - Academy Beauty Club (com.ionicframework.mobile860711)
+
+ - 12 of the 20 most downloaded shopping apps in Spain:
+   - Bershka (com.inditex.ecommerce.bershka)
+   - chicfy - compra y vende moda (com.chicfy)
+   - coches.net: anuncios de coches (coches.net)
+   - eBay: Buy, sell and save (com.ebay.mobile)
+   - Home - Design & Decor Shopping (com.contextlogic.home)
+   - Lidl - Offers & Leaflets (de.sec.mobile)
+   - Milanuncios (com.muba.anuncios)
+   - Privalia, outlet moda online (com.privalia.privalia)
+   - SheIn (THE YUB) - SheInside. (com.zzkko)
+   - vente-privee (com.venteprivee)
+   - Wish - Shopping made fun (com.contextlogic.wish)
+   - Zalando - Shopping fashion (de.zalando.mobile)
