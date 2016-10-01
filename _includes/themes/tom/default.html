@@ -28,7 +28,7 @@
        border: 1px solid #000;
        padding: 1em;
        text-align: center;
-       height: 7.5em;
+       height: 7em;
        width: 10%;
    }
    .download > a {
@@ -38,7 +38,7 @@
        color: #000;
    }
    .download > a > img {
-       width: 4em;
+       height: 4em;
    }
    </style>
 
@@ -54,6 +54,10 @@
   <div class="site">
     <div class="title">
       <a href="{{ HOME_PATH }}">{{ site.title }}</a>
+      <a class="extra" href="{{ BASE_PATH }}download">Downloads</a>
+      <a class="extra" href="{{ BASE_PATH }}/download">Team</a>
+      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
+      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
     </div>
 
     {{ content }}
